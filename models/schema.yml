@@ -6,4 +6,5 @@ models:
       ### PK ###
       - name: product_id
         tests:
-          - unique
+          - not_null
+              
