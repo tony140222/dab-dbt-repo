@@ -21,9 +21,9 @@ models:
           - unique
       - name : product_name
         tests :
-          - not_null:
-      - name : model_type
-        tests :
+          - not_null
+      - name: model_type
+        tests:
           - not_null
           - accepted_values:
               values: ['T-shirt', 'Short', 'Legging', 'Crop-top', 'Top', 'Accessories']
